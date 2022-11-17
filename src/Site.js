@@ -50,7 +50,7 @@ function Site(){
             <div key={item.id}  className ={"profilecard"}> 
                 <p className='profilename'>{item.humanname}</p> 
                 <img src = {icon} className = 'image'></img>
-                <button className='button1' onclick = {Alertios()}>Send friend request</button>
+                <button className='button1'>Send friend request</button>
             </div>   
         ))
         }
