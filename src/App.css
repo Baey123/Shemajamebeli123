@@ -1,0 +1,59 @@
+body{
+    background: #18191a;
+    color: #fff;
+}
+.profilecard{
+    display: inline-block;
+    margin: 80px;
+    margin-left: 200px;
+    outline: 1px solid black;
+    margin-top: 300px;
+}
+.EntireSite{
+    background: #0084ff;
+    position: fixed;
+    width: 100%;
+}
+.EntireSite ul li{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-left:100px ;
+    font-size: 20px;
+    color: #fff;
+}
+.EntireSite ul{
+    margin-left: 1200px;
+}
+.button1{
+    width: 200px;
+    height: 70px;
+    background: #0084ff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.profilename{
+    justify-content: center;
+}
+.button1:hover{
+    background: #fff;
+    color: #0084ff;
+}
+.facebook{
+    width: 140px;
+    height: 80px;
+    margin-top: -20px;
+    position: absolute;
+}
